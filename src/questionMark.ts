@@ -18,3 +18,10 @@ marrigeEligibility(55);
 const userTheme ="Green theme";
 const selectedTheme =userTheme ?? 'Dark theme';
 console.log(selectedTheme);
+const isAuthenticated =null;
+
+const resultWithTernary =isAuthenticated ? isAuthenticated : 'you are guest!';
+const resultWithNulish =isAuthenticated ?? 'you are guest!';
+console.log({resultWithTernary},{
+    resultWithNulish
+})
